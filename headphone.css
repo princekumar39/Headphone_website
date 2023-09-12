@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+body{
+    background-color: #0f0f10;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*................... Navigation part of the HTML............. */
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    height: 15vh;
+}
+/* ..nav logo..  */
+nav img{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}
+/* ..navigation list..  */
+ nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    display: inline flex;
+    justify-content: space-between;
+    color:white;
+}
+a:hover{
+    color: red;
+    font-size:30px ;
+    text-decoration: underline;
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:aliceblue;
+    padding:10px 40px;
+    background-color:#1e1e21;
+    border: 2px solid blue;
+    border-radius:8px;
+    cursor: pointer;
+    margin-right: 30px;
+    
+}
+button:hover{
+     color:red;
+     text-decoration: underline;
+     font-size: 25px;
+}
+
+/* ...............MAIN PART OF THE HTML..................... */
+main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;  
+    margin-left: 50px;
+}
+/* ..main Right section.. */
+ .main-div{
+    margin-left: 350px;
+    margin-top: 140px;
+ }
+ .main-div h1{
+    font-weight: 600;
+    font-size: 46px;
+ }
+ .main-div h4{
+    font-weight:600;
+    font-size: 26px;
+ }
+ .main-div p{
+    width: 65%;
+    font-weight:300;
+    font-size: 12px;
+    color: #bdc0c2;
+   line-height: 25px;
+   margin-bottom: 25px;
+
+ }
+
+ /* shopping bag right section part */
+ .shoping-bag-rightsection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color:#1e1e21;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin-right: 550px;
+    border: 2px solid blue;
+ }
+ .shoping-bag-rightsection p{
+    margin-bottom: 0;
+    margin-left:8px;
+ }
+
+/* ...............logo section part........................ */
+.logo-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 450px;
+    height: 15vh;
+    margin-right: 450px;
+}
+
+
+
+/* .............section of specespart....................... */
+.speces_part{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.speces_logo{
+     margin-top: 80px;
+}
+
+.speces_lists{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 55px;
+    margin-top: 45px;
+}
+
+.speces_lists_items{
+    display:grid;
+    gap: 25px;
+}
+
+ .bluetooth{
+    margin-left:50px;
+}
+
+
+.mic{
+    margin-left:50px;
+}
+
+/* ..........designing the section case part .........*/
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caselogo{
+    margin-top: 140px;
+}
+
+.caseimagedetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    gap: 60px;
+}
+.caseimagedetails p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 500px;
+}
+
+.caseimagedetails h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color:#1e1e21;
+    border-radius: 8px;
+    padding: 5px 5px ;
+    margin-right: 600px;
+    border: 2px solid blue;
+
+}
+
+
+/* ..........section of buy part(after case-section)............. */
+.buy-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 100px;
+    background-color:#1e1e21;
+    padding: 30px 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+.buy-part p{
+    margin-top: 10px;
+}
+
+.buy-part-soppingbag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    background-color: black;
+    padding: 5px 5px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+}
+.buy-part-soppingbag p{
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+/* ...................... desiging product items list of html..............*/
+.prdouctbuylist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.prdouctsbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+    margin-top: 50px;
+}
+
+.black{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#1e1e21 ;
+    border: 2px solid blue ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.redblack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#1e1e21 ;
+    border: 2px solid blue ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.nightBlack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#1e1e21 ;
+    border: 2px solid blue ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#1e1e21 ;
+    border: 2px solid blue ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.gray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    background-color:#1e1e21 ;
+    border: 2px solid blue ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+    
+}
+
+.imgshopbag:hover{
+    background-color:brown;
+    padding: 5px 5px;
+}
+
+/* .................FOOTER PART.................... */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color:#1e1e21;
+    border: 1px solid blue ;
+    border-radius: 8px;
+    margin-top: 151px;
+    width: 100vw;
+    height: 200px;
+}
+
+.contact {
+    direction: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.contact input{
+    border-radius: 5px;
+}
+.contact input:hover {
+    background-color:red;
+    color:whit;
+    font-weight: 450;
+    font-size:large;
+
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 13px;
+    background-color: black;
+    border-radius: 8px;
+}
+.subscribe:hover{
+    color: red;
+    font-size:30px ;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.social-media{
+    margin-top: 13px;
+}
